@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>버거킹</title>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style> 
+   .logos img{width: 60px !important;height: 100px !important;}
+  </style>
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo logos d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="img/logo.jpg" alt="logo">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>     
+          <li class="dropdown"><a href="#">
+               <span>메뉴소개</span> 
+                <i class="bi bi-chevron-down dropdown-indicator"></i>
+              </a>
+            <ul>
+              <li><a href="#menu">스페셜&할인팩</a></li>
+              <li><a href="#">신제품(NEW)</a></li>
+              <li><a href="#">프리미엄</a></li>
+              <li><a href="#">와퍼&주니어</a></li>
+              <li><a href="#">치킨&슈림프버거</a></li>
+              <li><a href="#">올데이킹&킹모닝</a></li>
+              <li><a href="#">사이드</a></li>
+              <li><a href="#">음료&디저트</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">
+            <span>이벤트</span> 
+                <i class="bi bi-chevron-down dropdown-indicator"></i>
+           </a>
+           
+           <ul>
+            <li><a href="#chefs">이벤트</a></li>
+           </ul>
+          </li>
+          
+          <li class="dropdown"><a href="#">
+             <span>브랜드스토리</span> 
+             <i class="bi bi-chevron-down dropdown-indicator"></i>
+            </a>
+           <ul>
+            <li><a href="#about">BRAND</a></li>
+            <li><a href="#">WHOPPER</a></li>
+            <li><a href="#">COMM</a></li>
+           </ul>           
+          </li>
+          <li class="dropdown"><a href="#contact">
+            <span>매장소개</span> 
+            <i class="bi bi-chevron-down dropdown-indicator"></i>
+           </a> 
+           <ul>
+            <li><a href="#contact">매장찾기</a></li>
+           </ul>
+          </li>
+          <li class="dropdown"><a href="#">
+            <span>제품소개</span> 
+            <i class="bi bi-chevron-down dropdown-indicator"></i>
+           </a> 
+           <ul>
+            <li><a href="#gallery">제품리스트</a></li>
+           </ul>
+          </li>     
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="btn-book-a-table" href="#book-a-table">딜리버리주문</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- 비주얼 슬라이더 추가 -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <!-- <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div> 
+        <div class="col-lg-8 order-1 order-lg-2 text-center text-lg-start">
+          <img src="img/visual/v1.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div> -->
+     <div class="container-fluid">
+       <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/visual/v1.png" alt="v1" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/visual/v2.png" alt="v2" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/visual/v3.png" alt="v3" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/visual/v4.jpg" alt="v4" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/visual/v5.png" alt="v5" class="d-block" style="width:100%">
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+     </div><!-- container -->
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <!-- brand 제목 -->
+        <div class="section-header">
+          <h2>Brand Story</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
+        <!-- 브랜드  사진과 내용배치-->
+        <div class="row gy-4">
+          <div class="col-lg-12 position-relative about-img" style="background-image: url(img/brand/bd.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+            <!-- <div class="call-us position-absolute">
+              <h4>delivery</h4>
+              <p>+1 5589 55488 55</p>
+            </div> -->
+          </div>
+          <div class="col-lg-12 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-12">
+              <p class="fst-italic">
+                세계 최대 QSR(Quick Service Restaurant) 브랜드 중 하나인 버거킹은 1954년 미국 마이애미에서 James W.McLamore와 David Edgerton에 의해 설립되었습니다. 버거킹은 현재 100개 이상의 국가에서 15,000개 이상의 매장을 운영하고 있습니다. 고기를 팬에 굽는 일반 QSR과는 달리, 버거킹은 고기를 직접 불에 구워 조리하는 직화 방식 (Flame-Broiling)으로 담백하고 풍부한 맛과 향, 그리고 정통 햄버거의 풍미를 선보이고 있습니다. 버거킹의 대표 제품인 와퍼(Whopper)는 100% 순 쇠고기 패티와 함께 양상추, 토마토, 양파, 피클 등 4가지 신선한 야채가 어우러진 풍부한 맛으로 전세계 고객에게 사랑 받고 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12 position-relative about-img" style="background-image: url(img/brand/bd1.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+            
+          </div>
+          <div class="col-lg-12 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <h1>
+               버거킹 KOREA           
+              </h1>
+            </div>
+            <div class="content ps-0 ps-lg-7">
+              <p class="fst-italic">
+                세계 최대 QSR(Quick Service Restaurant) 브랜드 중 하나인 
+                버거킹은 1954년 미국 마이애미에서 James W.McLamore와 David Edgerton에 의해
+                 설립되었습니다. 버거킹은 현재 100개 이상의 국가에서 15,000개 이상의 
+                운영하고 있습니다. 고기를 팬에 굽는 일반 QSR과는 달리, 버거킹은 고기를 직접 
+                불에 구워 조리하는 직화 방식 (Flame-Broiling)으로 담백하고 풍부한 맛과 향, 
+                그리고 정통 햄버거의 풍미를 선보이고 있습니다. 버거킹의 대표 제품인 
+                와퍼(Whopper)는 100% 순 쇠고기 패티와 함께 양상추, 토마토, 양파, 피클 
+                4가지 신선한 야채가 어우러진 풍부한 맛으로 전세계 고객에게 사랑 받고 있습니다.                
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    
+
+    <!-- ======= Menu Section ======= -->
+    <!-- 제품전체 리스트 -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>special menu</h2>
+          <p>Check Our <span>Yummy Menu</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Starters</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Breakfast</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Lunch</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Starters</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/b1.png" class="glightbox">
+                  <img src="img/b1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>와퍼주니어</h4>
+                <p class="ingredients">
+                 1+1
+                </p>
+                <p class="price">
+                  8,900원
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/b2.png" class="glightbox">
+                  <img src="img/b2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>콰트로치즈와퍼</h4>
+                <p class="ingredients">
+                 단품
+                </p>
+                <p class="price">
+                 6,900원
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/b3.png" class="glightbox">
+                  <img src="img/b3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>치킨킹팩2</h4>
+                <p class="ingredients">
+                  치킨킹+와퍼 +크리미모짜볼5조각 +너겟킹4조각+콜라R2
+                </p>
+                <p class="price">
+                  12,900원
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/c1.png" class="glightbox">
+                  <img src="img/c1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>치킨킹팩1</h4>
+                <p class="ingredients">
+                  치킨킹+치킨킹BLT +크리미모짜볼5조각 +너겟킹4조각+콜라R2
+                </p>
+                <p class="price">
+                 15,000원
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/c2.png" class="glightbox">
+                  <img src="img/c2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>콰트로치즈X</h4>
+                <p class="ingredients">
+                  단품
+                </p>
+                <p class="price">
+                  6,000원
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/c3.png" class="glightbox">
+                  <img src="img/c3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>앵그리 너겟킹</h4>
+                <p class="ingredients">
+                  8조각 (행사)
+                </p>
+                <p class="price">
+                  5,000원
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Starter Menu Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $5.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $14.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $8.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $9.95
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Lunch</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $5.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $14.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $8.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $9.95
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $5.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $14.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $8.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $9.95
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+  
+
+    <!-- ======= Event Section ======= -->
+    <section id="chefs" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <!-- <h2>Chefs</h2> -->
+          <p>Spcial<span>Events</span></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member">
+              <div class="member-img">
+               <img src="img/event/14ed23ec-f0d9-45f7-b485-446431f7e129.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            
+              <div class="member-info">
+                <h4>Chicken King</h4>
+                <span><a href="#event1">Event확인</a></span> 
+                <p>
+                  1. 행사 명칭 : 버거킹 딜리버리 18,000원 이상 구매 시 4,000원 할인
+                  <br>
+                  2. 행사 기간 : 23년 2월 6일(월) ~ 2월 19일(일), 14일간
+                  <br>
+                  3. 행사 제품 : 딜리버리 전 메뉴
+
+                </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+     
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="img/event/2a59a22c-951f-45bd-9adc-85abf0fd3a2c.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>치킨킹 프리패스</h4>
+                <span><a href="#event2">Event확인</a></span>
+                <p>
+                  치킨킹 패션위크 <br>
+                  01/30(월) ~ 02/26(일) <br>
+                  
+                </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="img/event/a1d2432f-d697-41db-81cf-23bb3ddc3d48.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>프리미엄와퍼</h4>
+                <!-- <span>Cook</span> -->
+                <p>1. 행사명 : 프리미엄와퍼 4500원 <br>
+                  2. 제품 : 갈릭불고기와퍼, 콰트로치즈와퍼, 치즈와퍼 <br>             
+                  3. 행사 기간 : 23년 1월 25일(수) ~ 23년 2월 5일(일), 12일간
+                 </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->      
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="img/event/8fb9a421-3dcf-455f-9129-952549aa0264.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>딜리버리주문이벤트</h4>
+                <!-- <span>Cook</span> -->
+                <p>
+                  1. 제품명 : 오믈렛킹모닝 / BLT 오믈렛킹모닝 <br>
+                  2. 판매기간 : 22년 11월 21일(월) ~ <br>
+                  3. 판매시간 : 오전 04:00 ~ 11:00    
+                </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="img/event/c4db0904-2213-4c70-aff5-43504a2bba2d.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>블랙어니언와퍼</h4>
+                <!-- <span>Cook</span> -->
+                <p>
+                  1. 제품명 : 블랙어니언와퍼, 블랙어니언X, 블랙어니언치킨버거
+                  <br>
+                  2. 판매기간 : 22년 11월 28일(월) ~ 23년 2월 5일(일)
+                  <br>
+                  3. 200분의 기다림, 블랙어니언으로 깊어진 풍미
+                </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="img/event/f5985006-78f6-4a73-a264-2668313cf4c3.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>와퍼주니어 1+1</h4>
+                <!-- <span>Cook</span> -->
+                <p>1. 행사명 : 와퍼주니어 1+1
+                  <br>
+                  2. 제품 : 와퍼주니어, 불고기와퍼주니어 
+                  <br>
+                  3. 행사 기간 : 23년 2월 6일(월) ~ 23년 2월 12일(일), 7일간</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+        </div>
+      </div>
+    </section><!-- End Events Section -->
+    
+    <!-- Event content1 page -->
+    <section id="event1" class="sample-page">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+           <p>Chicken King<span>Events</span></p>
+         </div>
+       <div class="row">
+         <div class="col-lg-12">
+           
+            <img src="img/pop1.png" width="100%" alt="pop">
+     
+            <p>1. 제품명 : 치킨킹, 치킨킹BLT <br>
+            2. 판매기간 : 23년 1월 9일(월) ~ 23년 6월 25일(일)<br>   
+             3. 내용
+             - Juicy & Crispy<br>         
+             4. 유의 사항<br>          
+             *본 제품은 실제 이미지와 다를 수 있습니다.<br>      
+             *본 제품은 밀, 대두, 우유, 돼지고기, 토마토, 닭고기, 쇠고기, 난를 포함하고 있습니다.
+             <br>
+             *일부 매장은 행사에서 제외될 수 있습니다.
+             <br>
+             5. 제외매장 : 대명비발디점, 삼성라이온즈파크점, 오션월드점, 지산리조트점
+             <br>
+             버거킹 APP 다운받고
+             더 많은 할인 혜택을
+             만나보세요!</p>
+         </div>
+       </div>
+      </div>
+    </section>
+    <!-- Event content2 page -->
+    <section id="event2" class="sample-page">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+           <p>Chicken King<span>FREEPASS</span></p>
+         </div>
+       <div class="row">
+         <div class="col-lg-12">
+            <img src="img/pop2.png" width="100%" alt="pop">
+         </div>
+       </div>
+      </div>
+    </section>
+    <!-- =======  Delivery Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Delivery</h2>
+          <p>delivery <span>Your Stay</span> With Us</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(img/de.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Delivery</button></div>
+            </form>
+          </div><!-- End Delivery Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Delivery Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Product Info</h2>
+          <p>Select<span>Product list</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/b1.png"><img src="img/b1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/b2.png"><img src="img/b2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/b3.png"><img src="img/b3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/c1.png"><img src="img/c1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/c2.png"><img src="img/c2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/c3.png"><img src="img/c3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/d1.png"><img src="img/d1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/d2.png"><img src="img/d2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="img/d3.png"><img src="img/d3.png" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <!-- <i class="icon bi bi-envelope flex-shrink-0"></i> -->
+              <div>
+                <img src="img/map.jpg" width="100%" alt="map">
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <dl>
+                <dt>Address</dt> <dd>경기 김포시 장기동 한강로4로 513<dt>Tel</dt>        <dd>070-7438-0503</dd>
+                <dt>Fax</dt>        <dd>070-7438-0503</dd>
+                <dt>Email</dt>      <dd>gpezen@ezen.co.kr</dd>
+             </dl>
+            </div>
+          </div><!-- End Info Item -->
+         
+         
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours</h3>
+                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                  <strong>Sunday:</strong> Closed
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-xl-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+        <!--End Contact Form -->
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-6">
+        <div class="col-lg-6 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알  전화주문 1599-0505 <br>
+              사업자 등록번호 101-86-76277 (주)BKR 대표이사 문영주, 이동형<br>
+              Copyright 2019 BKR Co., Ltd. All right Reserved.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> +82 1599 0505<br>
+              <strong>Email:</strong> info@BugerKing.com<br>
+            </p>
+          </div>
+        </div>
+ 
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+     <div class="row gy-6">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BugerKing</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <img src="img/flogo.png" alt="logo">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+     </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+   <script src="assets/js/main.js"></script>
+ 
+</body>
+</html>
